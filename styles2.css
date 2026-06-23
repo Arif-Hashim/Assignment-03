@@ -8,38 +8,38 @@
 }
 
 .header{
-    background:rgb(52, 240, 27);
+    background:rgb(102, 231, 16);
     grid-column:1/3;
     grid-row:1/2;
 }
 
 .nav{
-    background:rgb(52, 240, 27);
+    background:rgb(102, 231, 16);
     grid-column:1/2;
     grid-row:2/4;
 }
 
 .article{
-    background:rgb(52, 240, 27);
+    background:rgb(102, 231, 16);
     grid-column:2/3;
     grid-row:2/3;
 }
 
 .ads{
-    background:rgb(52, 240, 27);
+    background:rgb(102, 231, 16);
     grid-column:2/3;
     grid-row:3/4;
 }
 
 .footer{
-    background:rgb(52, 240, 27);
+    background:rgb(102, 231, 16);
     grid-column:1/3;
     grid-row:4/5;
 }
-.previous-btn{
+.back-btn{
     position:fixed;
     bottom:30px;
-    right:30px;
+    left:30px;
 
     padding:15px 35px;
     text-decoration:none;
@@ -47,7 +47,7 @@
     font-weight:bold;
     color:white;
 
-    background:linear-gradient(135deg,#667eea,#764ba2);
+    background:linear-gradient(135deg,#11998e,#38ef7d);
     border-radius:50px;
 
     box-shadow:0 8px 20px rgba(0,0,0,0.3);
@@ -55,7 +55,7 @@
     transition:all 0.3s ease;
 }
 
-.previous-btn:hover{
+.back-btn:hover{
     transform:translateY(-5px) scale(1.05);
     box-shadow:0 12px 25px rgba(0,0,0,0.4);
 }
